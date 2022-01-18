@@ -1,0 +1,225 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tagebucheintrag <date>14 Mai 1815</date>
+            </title>
+            <author>Anna Maria Preiswerk-Iselin</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Tagebücher Anna Maria Preiswerk-Iselin Projekt</publisher>
+            <pubPlace>Basel</pubPlace>
+            <date when="2022-03">March 2021</date>
+            <availability>
+               <licence notBefore="2022-03-01" target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>[...]</p>
+                  <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+                  <p> You are free to: <list>
+                        <item> Share — copy and redistribute the material in any medium or format</item>
+                        <item> Adapt — remix, transform, and build upon the material</item>
+                     </list>
+                  </p>
+                  <p> Under the following terms: <list>
+                        <item> Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You
+                           may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</item>
+                        <item> ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same
+                           license as the original.</item>
+                        <item> No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from
+                           doing anything the license permits.</item>
+                     </list>
+                  </p>
+                  <p>The licence was added on March first, 2022.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Heft 12 (1815-1816) - Anna Maria Preiswerk-Iselin </msName>
+               </msIdentifier>
+            </msDesc>
+            <listObject>
+               <object xml:id="i884031" type="tag">
+                  <objectIdentifier>
+                     <objectName>Gedanke zur Politik</objectName>
+                  </objectIdentifier>
+               </object>
+               <object xml:id="i885073" type="book_etc">
+                  <objectIdentifier>
+                     <objectName>Herrn Hofrath Schlossers drittes Schreiben über die Philanthropinen, in: Ephemeriden der Menschheit (1776), Bd. 1, 9.
+                        St.</objectName>
+                  </objectIdentifier>
+               </object>
+               <object xml:id="i873922" type="tag">
+                  <objectIdentifier>
+                     <objectName>Religion</objectName>
+                  </objectIdentifier>
+               </object>
+               <object xml:id="i873936" type="tag">
+                  <objectIdentifier>
+                     <objectName>Philosophie</objectName>
+                  </objectIdentifier>
+               </object>
+               <object xml:id="i1966372" type="tag">
+                  <objectIdentifier>
+                     <objectName>test_tei_export</objectName>
+                  </objectIdentifier>
+               </object>
+            </listObject>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <!-- vérifier !!! -->
+            <catRef scheme="#genre" target="#correspondence"/>
+         </textClass>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="i885084">
+                  <persName>Johann Georg Schlosser</persName>
+               </person>
+               <person xml:id="i867825">
+                  <persName>Isaak Iselin-Forcart</persName>
+               </person>
+               <person xml:id="i885100">
+                  <persName>Karl Friedrich Bahrdt</persName>
+               </person>
+               <person xml:id="i870097">
+                  <persName>Sokrates</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>[14. Mai 1815]</p>
+         <p>[1]</p>
+         <p> </p>
+         <p>
+                <date when="1815-05-14">1815 Mai d 14</date>
+                <lb/>Ich wiedersprach letzthin Jemand über eine Sache die<lb/>er glaubte im Krieg erlaubt zu seyn. Nachher<lb/>überdachte
+            ichs nächer u ich sagt zu mir, sollte es dan<lb/>unter gesitteten <rs ref="#i884031" type="tag">
+                    <rs ref="#i1966372" type="tag">Nationen</rs> auch im Krieg</rs> erlaubt seyn<lb/>wehe zu thun ohne einigen Nutzen? Kaum hatte ich diesen<lb/>Gedanken heraus als
+            ich etwas so Mistönendes<lb/>Anstössiges darin fand; ich forschte nach u fand daß<lb/>Krieg – gesittet, nicht könnten zusamen
+            passen<lb/>es schien mir es wäre als ob ich sagte, 2 gesittete<lb/>Herren hätten sich auf der Gaße herumgerauft.<lb/>Ist der Krieg im
+            Grund was Andres als das Rauffen<lb/>einer Menge gegen eine Menge? Sollte eine<lb/>Sache gut u recht werden weil nicht
+            einzelne<lb/>sondern Viele sie thun? Wenn man recht nachdächte<lb/>wie viele Dinge gäben es noch welche durch alte<lb/>Gewohnheit elende
+            Vorurtheile ausgerüstet, die<lb/>gedankenlose Menge blenden u wenn man sie<lb/>mit gesunden Augen betrachtete, sie als Geripe<lb/>aus den
+            barbarischen Zeiten erscheinen würden?</p>
+         <p>[2]</p>
+         <p> </p>
+         <p>
+                <rs ref="#i885073" type="book_etc">Ephemerid d M J <rs ref="#i1966372" type="tag">12 Stück</rs>, sagt <rs ref="#i885084" type="person">Schloßer</rs>
+                </rs> „Es ist unbe-<lb/>greiflich<rs ref="#i867825" type="person"> l. J</rs>., wie <rs ref="#i885100" type="person">D
+               A Barth</rs> es wagen konnte so viel<lb/>von der sokratischen Lehrart zu sagen, da man aus<lb/>allem was er davon sagt, so deutlich
+            spürt daß er weder<lb/>einen Begriff von dieser Lehrart noch den tausendsten<lb/>Theil von Sokrates Geist in sich hat, doch wer hat ihn
+            auch;<lb/>Wir sollten den Namen nicht ohne Ehrfurcht aussprechen;[“]<lb/>Er glaubt allso u wie mich deucht mit Recht, daß<lb/>wer S. Geist
+            nicht habe dürfe nicht von demselben<lb/>lehren u sprechen: Ist das vom Geiste <rs ref="#i870097" type="person">Sok</rs>. wahr;<lb/>was
+            laßt sich von den Lehrern Christi sagen die oft<lb/>nicht eine Spur von dessen Geist besitzen! Ich habe<lb/>mich schon oft gefragt, wer
+            mehr der <rs ref="#i873922" type="tag">Religion</rs> schade<lb/>diese od die <rs ref="#i873936" type="tag">Freigeister</rs>? Sind
+            die Erstern nicht zum<lb/>Theil Schuld daß es so viele von den Letztern giebt?<lb/>Wer kann mit einem etwas lebhaftem Geist,
+            ihre<lb/>Armseligkeiten anhören ohne zum Spott gereitzt zu<lb/>werden? U was ist die Folge davon bey Menschen die<lb/>nicht hinreichende
+            Beurtheilungskraft besitzen!<lb/>Zu ihrer Verteidigung ist nichts zu sagen als was<lb/>Christus von seinen Kreuzigern sagte „Vater
+            vergieb<lb/>ihnen denn sie wissen nicht was sie thun!“</p>
+         <p>[3]</p>
+         <p> </p>
+         <p>Mir ist schon oft sehr schmerzlich aufgefallen daß die<lb/>Lehrer der Religion in einem so niedrigen Ansehn stehen,<lb/>sich in ein so
+            niedriges setzen! An diesen Letztern<lb/>liegt wohl die Meiste, wo nicht alle Schuld: Was<lb/>das aber für Folgen für die niedern
+            Stände<lb/>haben wird das scheint mir oft höchst traurig.<lb/>Den der Bauer spottet nun des Geistlichen so wie der<lb/>Stätter u
+            sogenannte Gebildete: mir schaudert oft<lb/>wenn ich solche Mistöne höre. Aber dan fällt es<lb/>mir wieder beruhigend auf daß doch das
+            Gute bey<lb/>den Menschen nicht im Verhältnis Abnimmt; ich wohne<lb/>nun seit 17 Jahren unter Landleuten die wenig Ursache<lb/>haben ihre
+            Gst. zu schätzen u die es auch nicht &lt;thun&lt;: aber<lb/>doch finde ich sehr Viele unter ihnen die noch christlichen<lb/>Sinn haben u
+            die gar wohl den Geistlichen u die <lb/>Religion von einander abzusondern wissen.<lb/>Dieses hoffe ich werde das Gegengift für das
+            Übel<lb/>seyn! Religion u Wahrheit werden siegen so sehr<lb/>auch die Bosheit u Dummheit wirkt u schreit: der<lb/>so sie vom Himmel den
+            Menschen gesandt wird sie denen<lb/>zu erhalten wissen die sie suchen u lieben!</p>
+         <p/>
+         <p/>
+         <p> </p>
+         <p>
+                <date when="1815-05-14">1815 Mai d 14</date>
+                <lb/>Ich wiedersprach letzthin Jemand über eine Sache die<lb/>er glaubte im Krieg erlaubt zu seyn. Nachher<lb/>überdachte
+            ichs nächer u ich sagt zu mir, sollte es dan<lb/>unter gesitteten <rs ref="#i884031" type="tag">
+                    <rs ref="#i1966372" type="tag">Nationen</rs> auch im Krieg</rs> erlaubt seyn<lb/>wehe zu thun ohne einigen Nutzen? Kaum hatte ich diesen<lb/>Gedanken heraus als
+            ich etwas so Mistönendes<lb/>Anstössiges darin fand; ich forschte nach u fand daß<lb/>Krieg – gesittet, nicht könnten zusamen
+            passen<lb/>es schien mir es wäre als ob ich sagte, 2 gesittete<lb/>Herren hätten sich auf der Gaße herumgerauft.<lb/>Ist der Krieg im
+            Grund was Andres als das Rauffen<lb/>einer Menge gegen eine Menge? Sollte eine<lb/>Sache gut u recht werden weil nicht
+            einzelne<lb/>sondern Viele sie thun? Wenn man recht nachdächte<lb/>wie viele Dinge gäben es noch welche durch alte<lb/>Gewohnheit elende
+            Vorurtheile ausgerüstet, die<lb/>gedankenlose Menge blenden u wenn man sie<lb/>mit gesunden Augen betrachtete, sie als Geripe<lb/>aus den
+            barbarischen Zeiten erscheinen würden?</p>
+         <p>[2]</p>
+         <p> </p>
+         <p>
+                <rs ref="#i885073" type="book_etc">Ephemerid d M J <rs ref="#i1966372" type="tag">12 Stück</rs>, sagt <rs ref="#i885084" type="person">Schloßer</rs>
+                </rs> „Es ist unbe-<lb/>greiflich<rs ref="#i867825" type="person"> l. J</rs>., wie <rs ref="#i885100" type="person">D
+               A Barth</rs> es wagen konnte so viel<lb/>von der sokratischen Lehrart zu sagen, da man aus<lb/>allem was er davon sagt, so deutlich
+            spürt daß er weder<lb/>einen Begriff von dieser Lehrart noch den tausendsten<lb/>Theil von Sokrates Geist in sich hat, doch wer hat ihn
+            auch;<lb/>Wir sollten den Namen nicht ohne Ehrfurcht aussprechen;[“]<lb/>Er glaubt allso u wie mich deucht mit Recht, daß<lb/>wer S. Geist
+            nicht habe dürfe nicht von demselben<lb/>lehren u sprechen: Ist das vom Geiste <rs ref="#i870097" type="person">Sok</rs>. wahr;<lb/>was
+            laßt sich von den Lehrern Christi sagen die oft<lb/>nicht eine Spur von dessen Geist besitzen! Ich habe<lb/>mich schon oft gefragt, wer
+            mehr der <rs ref="#i873922" type="tag">Religion</rs> schade<lb/>diese od die <rs ref="#i873936" type="tag">Freigeister</rs>? Sind
+            die Erstern nicht zum<lb/>Theil Schuld daß es so viele von den Letztern giebt?<lb/>Wer kann mit einem etwas lebhaftem Geist,
+            ihre<lb/>Armseligkeiten anhören ohne zum Spott gereitzt zu<lb/>werden? U was ist die Folge davon bey Menschen die<lb/>nicht hinreichende
+            Beurtheilungskraft besitzen!<lb/>Zu ihrer Verteidigung ist nichts zu sagen als was<lb/>Christus von seinen Kreuzigern sagte „Vater
+            vergieb<lb/>ihnen denn sie wissen nicht was sie thun!“</p>
+         <p>[3]</p>
+         <p> </p>
+         <p>Mir ist schon oft sehr schmerzlich aufgefallen daß die<lb/>Lehrer der Religion in einem so niedrigen Ansehn stehen,<lb/>sich in ein so
+            niedriges setzen! An diesen Letztern<lb/>liegt wohl die Meiste, wo nicht alle Schuld: Was<lb/>das aber für Folgen für die niedern
+            Stände<lb/>haben wird das scheint mir oft höchst traurig.<lb/>Den der Bauer spottet nun des Geistlichen so wie der<lb/>Stätter u
+            sogenannte Gebildete: mir schaudert oft<lb/>wenn ich solche Mistöne höre. Aber dan fällt es<lb/>mir wieder beruhigend auf daß doch das
+            Gute bey<lb/>den Menschen nicht im Verhältnis Abnimmt; ich wohne<lb/>nun seit 17 Jahren unter Landleuten die wenig Ursache<lb/>haben ihre
+            Gst. zu schätzen u die es auch nicht &lt;thun&lt;: aber<lb/>doch finde ich sehr Viele unter ihnen die noch christlichen<lb/>Sinn haben u
+            die gar wohl den Geistlichen u die <lb/>Religion von einander abzusondern wissen.<lb/>Dieses hoffe ich werde das Gegengift für das
+            Übel<lb/>seyn! Religion u Wahrheit werden siegen so sehr<lb/>auch die Bosheit u Dummheit wirkt u schreit: der<lb/>so sie vom Himmel den
+            Menschen gesandt wird sie denen<lb/>zu erhalten wissen die sie suchen u lieben!</p>
+         <p/>
+         <p/>
+         <p> </p>
+         <p>
+                <date when="1815-05-14">1815 Mai d 14</date>
+                <lb/>Ich wiedersprach letzthin Jemand über eine Sache die<lb/>er glaubte im Krieg erlaubt zu seyn. Nachher<lb/>überdachte
+            ichs nächer u ich sagt zu mir, sollte es dan<lb/>unter gesitteten <rs ref="#i884031" type="tag">
+                    <rs ref="#i1966372" type="tag">Nationen</rs> auch im Krieg</rs> erlaubt seyn<lb/>wehe zu thun ohne einigen Nutzen? Kaum hatte ich diesen<lb/>Gedanken heraus als
+            ich etwas so Mistönendes<lb/>Anstössiges darin fand; ich forschte nach u fand daß<lb/>Krieg – gesittet, nicht könnten zusamen
+            passen<lb/>es schien mir es wäre als ob ich sagte, 2 gesittete<lb/>Herren hätten sich auf der Gaße herumgerauft.<lb/>Ist der Krieg im
+            Grund was Andres als das Rauffen<lb/>einer Menge gegen eine Menge? Sollte eine<lb/>Sache gut u recht werden weil nicht
+            einzelne<lb/>sondern Viele sie thun? Wenn man recht nachdächte<lb/>wie viele Dinge gäben es noch welche durch alte<lb/>Gewohnheit elende
+            Vorurtheile ausgerüstet, die<lb/>gedankenlose Menge blenden u wenn man sie<lb/>mit gesunden Augen betrachtete, sie als Geripe<lb/>aus den
+            barbarischen Zeiten erscheinen würden?</p>
+         <p>[2]</p>
+         <p> </p>
+         <p>
+                <rs ref="#i885073" type="book_etc">Ephemerid d M J <rs ref="#i1966372" type="tag">12 Stück</rs>, sagt <rs ref="#i885084" type="person">Schloßer</rs>
+                </rs> „Es ist unbe-<lb/>greiflich<rs ref="#i867825" type="person"> l. J</rs>., wie <rs ref="#i885100" type="person">D
+               A Barth</rs> es wagen konnte so viel<lb/>von der sokratischen Lehrart zu sagen, da man aus<lb/>allem was er davon sagt, so deutlich
+            spürt daß er weder<lb/>einen Begriff von dieser Lehrart noch den tausendsten<lb/>Theil von Sokrates Geist in sich hat, doch wer hat ihn
+            auch;<lb/>Wir sollten den Namen nicht ohne Ehrfurcht aussprechen;[“]<lb/>Er glaubt allso u wie mich deucht mit Recht, daß<lb/>wer S. Geist
+            nicht habe dürfe nicht von demselben<lb/>lehren u sprechen: Ist das vom Geiste <rs ref="#i870097" type="person">Sok</rs>. wahr;<lb/>was
+            laßt sich von den Lehrern Christi sagen die oft<lb/>nicht eine Spur von dessen Geist besitzen! Ich habe<lb/>mich schon oft gefragt, wer
+            mehr der <rs ref="#i873922" type="tag">Religion</rs> schade<lb/>diese od die <rs ref="#i873936" type="tag">Freigeister</rs>? Sind
+            die Erstern nicht zum<lb/>Theil Schuld daß es so viele von den Letztern giebt?<lb/>Wer kann mit einem etwas lebhaftem Geist,
+            ihre<lb/>Armseligkeiten anhören ohne zum Spott gereitzt zu<lb/>werden? U was ist die Folge davon bey Menschen die<lb/>nicht hinreichende
+            Beurtheilungskraft besitzen!<lb/>Zu ihrer Verteidigung ist nichts zu sagen als was<lb/>Christus von seinen Kreuzigern sagte „Vater
+            vergieb<lb/>ihnen denn sie wissen nicht was sie thun!“</p>
+         <p>[3]</p>
+         <p> </p>
+         <p>Mir ist schon oft sehr schmerzlich aufgefallen daß die<lb/>Lehrer der Religion in einem so niedrigen Ansehn stehen,<lb/>sich in ein so
+            niedriges setzen! An diesen Letztern<lb/>liegt wohl die Meiste, wo nicht alle Schuld: Was<lb/>das aber für Folgen für die niedern
+            Stände<lb/>haben wird das scheint mir oft höchst traurig.<lb/>Den der Bauer spottet nun des Geistlichen so wie der<lb/>Stätter u
+            sogenannte Gebildete: mir schaudert oft<lb/>wenn ich solche Mistöne höre. Aber dan fällt es<lb/>mir wieder beruhigend auf daß doch das
+            Gute bey<lb/>den Menschen nicht im Verhältnis Abnimmt; ich wohne<lb/>nun seit 17 Jahren unter Landleuten die wenig Ursache<lb/>haben ihre
+            Gst. zu schätzen u die es auch nicht &lt;thun&lt;: aber<lb/>doch finde ich sehr Viele unter ihnen die noch christlichen<lb/>Sinn haben u
+            die gar wohl den Geistlichen u die <lb/>Religion von einander abzusondern wissen.<lb/>Dieses hoffe ich werde das Gegengift für das
+            Übel<lb/>seyn! Religion u Wahrheit werden siegen so sehr<lb/>auch die Bosheit u Dummheit wirkt u schreit: der<lb/>so sie vom Himmel den
+            Menschen gesandt wird sie denen<lb/>zu erhalten wissen die sie suchen u lieben!</p>
+         <p/>
+         <p/>
+      </body>
+   </text>
+</TEI>
