@@ -174,7 +174,7 @@
                <lb/>einlaufe.
                <lb/>Der Anlas war gewiß mein Betragen gegen <rs ref="#i873838" type="object">S.</rs> aber
                <lb/>gewiß ich schätz diesen Menschen finde viel edles
-               <lb/>an ihm. Die Ursache warum ich mich <del>und die Meinigen</del> von ihm so viel möglich entferne, sind ganz andere Beweggründe als
+               <lb/>an ihm. Die Ursache warum ich mich <add rend="superscript">und die Meinigen</add> von ihm so viel möglich entferne, sind ganz andere Beweggründe als
                <lb/>Verachtung. So viel hoffe ich aber daß man nicht
                <pb n="4"/>von mir glauben wird daß <rs ref="#i874090" type="object">seine Herkunft </rs>und Mangel
                <lb/>an Vermögen, ihm weniger Achtung von mir zuzöge
@@ -206,7 +206,7 @@
                <pb n="5" break="no"/>gefühl zum Schöpfer hinaufsteigen darf?
                <lb/>Aber wan mein Hertz in die reinsten Gefühle
                <lb/>beim Anblick der geschafnen Weesen zerfließt 
-               <lb/><supplied>so si</supplied> und sich zum <rs ref="#i873936" type="object">Urquel der Wesen</rs> dankbar
+               <lb/><del rend="strikethrough">so si</del> und sich zum <rs ref="#i873936" type="object">Urquel der Wesen</rs> dankbar
                <lb/>erhebt, so lispelt eine geheime Stimme mir zu
                <lb/>was wäre die Schöpfung ohne das denkende
                <lb/>Wesen das sie betrachten, und sich zum
@@ -232,7 +232,7 @@
                <lb/>doch ist der Weise was anders als Egoist im
                <lb/>edlen Verstande? Ist nicht jede Kraft
                <lb/>die den Menschen ziert, jede Tugend mit der
-               <lb/>er sich schmückt jede edle That <supplied>mit</supplied> die er <supplied>predigt</supplied>
+               <lb/>er sich schmückt jede edle That <del rend="strikethrough">mit</del> die er <del rend="strikethrough">predigt</del>
                <lb/>im stillen übt, Quelle neuer Freuden, die Wonne
                <lb/>in seine Seele strömet, deren Stralen auch
                <lb/>auf seine Mitmenschen, die fähig sind sie zu empfangen,
@@ -242,19 +242,19 @@
                <lb/>vor? Ihr müßt sie selbst nicht kennen
                <lb/>ihr macht sie fürchten statt sie lieben zu
                <lb/>machen! Seid gut, und genießt die Ruhe eines
-               <lb/><supplied>guten</supplied> reinen Herzens so werdet ihr Glückselig
+               <lb/><del rend="strikethrough">guten</del> reinen Herzens so werdet ihr Glückselig
                <lb/>sein, wenn schon auf Stürme aller Art euer
                <lb/>Inners erschüttern. Ihr werdet Tugend
                <lb/>lehren ohne sie zu predigen.</p>
             <pb n="7"/>
             <p>Aber mein Gott <rs ref="#i873990" type="object">mit was soll ich mich dan in
                <lb/>der Welt beruihigen und befriedigen</rs> wenn
-               <lb/>es nicht mit dem Sittlichen Stolz <del>ist,</del> der mir
+               <lb/>es nicht mit dem Sittlichen Stolz <add rend="superscript">ist,</add> der mir
                <lb/>die Versicherung giebt daß ich so gehandelt
                <lb/>habe wie ich sollte <rs ref="#i873922" type="object">wie ich es dem Willen
                <lb/>Gottes gemäs hielt</rs>. <rs ref="#i873964" type="object">Gewiß ich bin über
                <lb/>den Beifall der Menschen nicht unempfindlich</rs>,
-               <lb/>aber wenn ich <supplied>nach</supplied> nach meinen Empfindungen
+               <lb/>aber wenn ich <del rend="strikethrough">nach</del> nach meinen Empfindungen
                <lb/>nach meinem Gewißen handle, <rs ref="#i874019" type="object">wie selten ver
                <lb break="no"/>steht man mich</rs>, und <rs ref="#i874003" type="object">so ziehe ich mich von
                <lb/>den Menschen zurück</rs>, auch da wo mein Herz
@@ -265,7 +265,7 @@
                <lb/>nicht sein kan was ich wünschte, oft ungerecht
                <lb/>gegen sie. O wie quälend ist der Unglaube
                <lb/>an Tugend, so wie der Unglaube an Religion
-               <lb/>und Zukunft entsteht <supplied>sie</supplied> <del>er oft</del> nicht aus Bosheit des
+               <lb/>und Zukunft entsteht <del rend="strikethrough">sie</del> <add rend="superscript">er oft</add> nicht aus Bosheit des
                <lb/>Herzens sondern, durch Beleidigung, Mishandlung
                <lb/>und Unterdrückung. Gott der du mir Glauben
                <lb/>an dich und Beruhigung über meine Zukunft ins 
@@ -285,12 +285,12 @@
             <p>
                <lb/><date when="1795-12-10">95 12 10</date>
                <lb/>Gewiß eine drückende Lage. <rs ref="#i874029" type="object">20 Jahre arbeite ich
-               <lb/>mit aufopfrung meiner <supplied>eignen</supplied> andern Wünsche
+               <lb/>mit aufopfrung meiner <del rend="strikethrough">eignen</del> andern Wünsche
                <lb/>das zu erhalten was ich täglich mehr verliere</rs>.
                <lb/><rs ref="#i873990" type="object">Habe ich ich die Sache nicht gut angegriffen,
                <lb/>oder wollte es die Vorsicht nicht</rs>.
                <lb/>Ein Trost bleibt mir daß ich eifrig und
-               <lb/><supplied>mit</supplied> nach meinen <supplied>Absichten</supplied> Begriffen dem Zweke
+               <lb/><del rend="strikethrough">mit</del> nach meinen <del rend="strikethrough">Absichten</del> Begriffen dem Zweke
                <lb/>nachgestrebt, und das kan die ewige
                <lb/>Gerechtigkeit mir nicht aus Acht lassen.
             </p>
@@ -323,7 +323,7 @@
                <lb/>Schritt zum Guten, ihm neue Kraft zum Guten
                <pb n="10"/>erschlaft nicht jedes Unwahre daß er in seinem
                <lb/>Herzen nährt, seine Kraft, zu wirken
-               <lb/>und zu höhrer Glück<del>seligkeit</del> höchrer Volkkommenheit
+               <lb/>und zu höhrer Glück<add rend="superscript">seligkeit</add> höchrer Volkkommenheit
                <lb/>hinauf zu steigen.
                <lb/>Wie wenig kan sich der versprechen der
                <lb/>sich immer nur verhältnißweise gegen
@@ -332,14 +332,14 @@
                <lb/>des Menschen messen, ich kan mehr thun
                <lb/>als ein Andrer, aber mein thun kan
                <lb/>doch vor dem Richter der meine Kräfte
-               <lb/>mißt weniger <supplied>gethan haben</supplied> <del>sein</del> als <supplied>ein</supplied> das
+               <lb/>mißt weniger <del rend="strikethrough">gethan haben</del> <add rend="superscript">sein</add> als <del rend="strikethrough">ein</del> das
                <lb/>des Andrer. Strenge deine Kräfte an
-               <lb/>ohne <supplied>zu ver</supplied> um und neben dich zu sehen
+               <lb/>ohne <del rend="strikethrough">zu ver</del> um und neben dich zu sehen
                <lb/>damit du nicht zurückgehst. Thue das
                <lb/>Gute so wie du es erkennest, und nicht wie
                <lb/>es die befriedigt die mit Nachsicht auf dich
-               <lb/>sehen, damit dir wieder Nachsicht von <supplied>ihnen
-               <lb/>erhalt</supplied> dir erhalten handle nach deiner
+               <lb/>sehen, damit dir wieder Nachsicht von <del rend="strikethrough">ihnen
+               <lb/>erhalt</del> dir erhalten handle nach deiner
                <lb/>Einsicht, sonst bist zu Andrer Taglöhner
                <lb/>sonst kanst du deiner Wirksamkeit, durch</p>
          </div>
