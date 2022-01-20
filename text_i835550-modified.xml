@@ -153,7 +153,8 @@
          <div xml:id="d23381914" corresp="d835573" type="Tagebucheintrag">
             <head><supplied resp="#editor">Tagebucheintrag 23.11.1795</supplied></head>
             <pb n="3"/>
-            <p><date when="1795-11-23">95 11 23</date>
+            <p><date when="1795-11-23">95 11 23</date></p>
+            <p>
                <lb/>Wer mir die für mich bittere Wahrheit
                <lb/>sagt, ohne den geringsten Eigenuz dabei zu
                <lb/>haben, der muß Achtung und <rs ref="#i873957" type="object">Freundschaft</rs> für mich
@@ -192,7 +193,8 @@
          <div xml:id="d23381935" corresp="d835641" type="Tagebucheintrag">
             <head><supplied resp="#editor" reason="noneGiven">Tagebucheintrag 7.11.1795 </supplied></head>
             <p>
-               <lb/><date when="1795-11-07">Abend d 27</date>
+               <lb/><date when="1795-11-07">Abend d 27</date></p>
+            <p>
                <lb/>Ist edle Tugend, ist wahre <rs ref="#i873957" type="object">Freundschaft</rs> ein
                <lb/>Traum ein Schattenbild erzeugt im Hirn eines
                <lb/>überspanten Kopfes. Oder ist sie nur Vor
@@ -226,7 +228,8 @@
          <div xml:id="d23381937" corresp="d835651" type="Tagebucheintrag">
             <head><supplied resp="#editor" reason="noneGiven">Tagebucheintrag 28.11.1795 </supplied></head>
             <p>
-               <lb/><date when="1795-11-28">28 Nov</date>
+               <lb/><date when="1795-11-28">28 Nov</date></p>
+            <p>
                <lb/>Der Egoismus im minderen Verstande ist
                <lb/>das verabscheuungswürdigste ding von der Welt,
                <lb/>doch ist der Weise was anders als Egoist im
@@ -283,7 +286,8 @@
          <div xml:id="d23381939" corresp="d835662" type="Tagebucheintrag">
             <head><supplied resp="#editor" reason="noneGiven">Tagebucheintrag 10.12.1795 </supplied></head>
             <p>
-               <lb/><date when="1795-12-10">95 12 10</date>
+               <lb/><date when="1795-12-10">95 12 10</date></p>
+            <p>
                <lb/>Gewiß eine drückende Lage. <rs ref="#i874029" type="object">20 Jahre arbeite ich
                <lb/>mit aufopfrung meiner <del rend="strikethrough">eignen</del> andern Wünsche
                <lb/>das zu erhalten was ich täglich mehr verliere</rs>.
