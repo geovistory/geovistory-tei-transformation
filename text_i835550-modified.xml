@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>    
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="d835550">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- Utiliser le champ "Has definition" pour le titre ? -->
+            <title>Tagebuch Heft 1 (1796) - Anna Maria Preiswerk-Iselin (de )</title>
+            <author>Anna Maria Preiswerk-Iselin</author>
+            <editor>One editor's name</editor>
+            <editor>Another editor's name</editor>
+         </titleStmt>
+         <publicationStmt>
+            <!-- Gardons cet identifiant pour avoir les @resp="#editor" -->
+            <publisher xml:id="editor">Tagebücher Anna Maria Preiswerk-Iselin Projekt</publisher>
+            <pubPlace>Basel</pubPlace>
+            <!-- Attention, les dates sont différentes dans l'attribut et dans le texte. -->
+            <date when="2022-03">March 2021</date>
+            <availability>
+               <licence notBefore="2022-03-01" target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>[...]</p>
+                  <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+                     International License.</p>
+                  <p> You are free to: <list>
+                        <item> Share — copy and redistribute the material in any medium or
+                           format</item>
+                        <item> Adapt — remix, transform, and build upon the material</item>
+                     </list>
+                  </p>
+                  <p> Under the following terms: <list>
+                        <item> Attribution — You must give appropriate credit, provide a link to the
+                           license, and indicate if changes were made. You may do so in any
+                           reasonable manner, but not in any way that suggests the licensor endorses
+                           you or your use.</item>
+                        <item> ShareAlike — If you remix, transform, or build upon the material, you
+                           must distribute your contributions under the same license as the
+                           original.</item>
+                        <item> No additional restrictions — You may not apply legal terms or
+                           technological measures that legally restrict others from doing anything
+                           the license permits.</item>
+                     </list>
+                  </p>
+                  <p>The licence was added on March first, 2022.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Anna Maria Peiswerk-Iselins Tagebücher</title>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName>One editor's name</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName>Another editor's name</persName>
+            </respStmt>
+            <biblScope unit="volume">1</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Basel</settlement>
+                  <repository>Staatsarchiv</repository>
+                  <idno>StABS PA 511 304-03-04</idno>
+                  <msName>Heft 12 (1815-1816) - Anna Maria Preiswerk-Iselin</msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <!-- Format d'export libre (tout sauf de la TEI). Namespace à déclarer dans la racine TEI. -->
+         <!-- <listObject>
+            <object xml:id="i873964" type="tag">
+               <objectIdentifier>
+                  <objectName>Selbstkritik</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i873957" type="tag">
+               <objectIdentifier>
+                  <objectName>Freundschaft</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i873838" type="tag">
+               <objectIdentifier>
+                  <objectName>Unbekannte Person</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i874090" type="tag">
+               <objectIdentifier>
+                  <objectName>Personenbeschreibung</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i874226" type="tag">
+               <objectIdentifier>
+                  <objectName>Gedanken zur Gesellschaft</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i873936" type="tag">
+               <objectIdentifier>
+                  <objectName>Philosophie</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i873990" type="tag">
+               <objectIdentifier>
+                  <objectName>Selbstreflexion</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i873922" type="tag">
+               <objectIdentifier>
+                  <objectName>Religion</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i874003" type="tag">
+               <objectIdentifier>
+                  <objectName>Verhalten</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i874011" type="tag">
+               <objectIdentifier>
+                  <objectName>Furcht</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i874019" type="tag">
+               <objectIdentifier>
+                  <objectName>Zweifel</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i910645" type="tag">
+               <objectIdentifier>
+                  <objectName>Trübe Stimmung</objectName>
+               </objectIdentifier>
+            </object>
+            <object xml:id="i874029" type="tag">
+               <objectIdentifier>
+                  <objectName>Rückblick</objectName>
+               </objectIdentifier>
+            </object>
+         </listObject> -->
+      </xenoData>
+      <profileDesc>
+         <textClass>
+            <!-- vérifier !!! -->
+            <catRef scheme="#genre" target="#journal"/>
+         </textClass>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="d23381914" corresp="d835573" type="Tagebucheintrag">
+            <head><supplied resp="#editor">Tagebucheintrag 23.11.1795</supplied></head>
+            <pb n="3"/>
+            <p><date when="1795-11-23">95 11 23</date>
+               <lb/>Wer mir die für mich bittere Wahrheit
+               <lb/>sagt, ohne den geringsten Eigenuz dabei zu
+               <lb/>haben, der muß Achtung und <rs ref="#i873957" type="object">Freundschaft</rs> für mich
+               <lb/>haben, und ich kan ihm die meinige, ohne Un
+               <lb break="no"/>gerechtigkeit nicht versagen. Ich wäre der
+               <lb/>Achtung nicht werth wen ich diese Wahrheiten
+               <lb/>nicht scharf zu Herzen nehme und nicht trachtete
+               <lb/>die mir vorgeworfenen <rs ref="#i873964" type="object">Fehler an mir zu
+               <lb/>bessern</rs>. Es wird schwer halten, obschon ich
+               <lb/>den besten Willen dazu habe.
+               <lb/>Ich hätte einen allzu strengen sittlichen Stolz
+               <lb/>der mich, bei der geringsten Bemerkung eines
+               <lb/>Fehlers an Andern, hindere, das Gute zu bemerken,
+               <lb/>das an ihnen ist, und mich von den
+               <lb/>Menschen zurückzöge, und in Fall setze ungerecht gegen sie
+               <lb/>zu sein. Es mag vieles daran wahr sein,
+               <lb/>doch glaube ich daß auch vieles Misverstand dabei
+               <lb/>einlaufe.
+               <lb/>Der Anlas war gewiß mein Betragen gegen <rs ref="#i873838" type="object">S.</rs> aber
+               <lb/>gewiß ich schätz diesen Menschen finde viel edles
+               <lb/>an ihm. Die Ursache warum ich mich <del>und die Meinigen</del> von ihm so viel möglich entferne, sind ganz andere Beweggründe als
+               <lb/>Verachtung. So viel hoffe ich aber daß man nicht
+               <pb n="4"/>von mir glauben wird daß <rs ref="#i874090" type="object">seine Herkunft </rs>und Mangel
+               <lb/>an Vermögen, ihm weniger Achtung von mir zuzöge
+               <lb/>Ich schäze gewiß einen Menschen mehr der auf
+               <lb/>persönliche Eigenschaften stolz ist, als Einer der
+               <lb/>es auf Stand und Vermögen wäre.
+               <lb/>Aber immer steigt die Frage in mir auf,
+               <lb/>wenn diesem Menschen <rs ref="#i874226" type="object">Stand</rs> und ermögen zu
+               <lb/>theil geworden wäre, würde er auch dan nicht
+               <lb/>mehr darauf halten, als der Weise es thun
+               <lb/>soll? Ist es seine Lage oder sind es seine
+               <lb/>Gesinnungen, die ihn den Werth der Dinge
+               <lb/>schätzen machen?</p>
+         </div>
+         <div xml:id="d23381935" corresp="d835641" type="Tagebucheintrag">
+            <head><supplied resp="#editor" reason="noneGiven">Tagebucheintrag 7.11.1795 </supplied></head>
+            <p>
+               <lb/><date when="1795-11-07">Abend d 27</date>
+               <lb/>Ist edle Tugend, ist wahre <rs ref="#i873957" type="object">Freundschaft</rs> ein
+               <lb/>Traum ein Schattenbild erzeugt im Hirn eines
+               <lb/>überspanten Kopfes. Oder ist sie nur Vor
+               <lb break="no"/>gefühl der Seeligkeit die Wir in einem
+               <lb/>künftigen Zustande geniesen, aber hienieden
+               <lb/>dazu noch unreif sind? <rs ref="#i873990" type="object">Oder bin ich mehr
+               <lb/>als andere Menschen deren unwerth</rs>?
+               <lb/>Ists nur ein Genuß der reizenden aber Vernunft
+               <lb/>losen Natur daß mein Herz sich der Freude
+               <lb/>und Glückseeligkeit überlaßen, und mein Dank
+               <pb n="5" break="no"/>gefühl zum Schöpfer hinaufsteigen darf?
+               <lb/>Aber wan mein Hertz in die reinsten Gefühle
+               <lb/>beim Anblick der geschafnen Weesen zerfließt 
+               <lb/><supplied>so si</supplied> und sich zum <rs ref="#i873936" type="object">Urquel der Wesen</rs> dankbar
+               <lb/>erhebt, so lispelt eine geheime Stimme mir zu
+               <lb/>was wäre die Schöpfung ohne das denkende
+               <lb/>Wesen das sie betrachten, und sich zum
+               <lb/>Schöpfer erheben kan. Meine Seele
+               <lb/>wünscht sich in die Seele andrer denkenden
+               <lb/>Weesen zu ergießen, sich durch mitgefühl
+               <lb/>zu erheben, sie sucht die Zierde der Schöpf
+               <lb break="no"/>ung – das Ebenbild der Gottheit. – und findet
+               <lb/>nirgends, was mit ihr harmoniere.
+               <lb/>Ist der Verstand, der Witz des Menschen,
+               <lb/>nur in der Welt, um reine Herzen zu hindergehen?
+               <lb/>Ist reine Einfalt des Herzens nur da um
+               <lb/>hindergangen zu werden? – So laß michs werden
+               <lb/>bis ans Ende des Lebens! Länger kans die
+               <lb/>Gerechtigkeit Gottes nicht zugeben</p>
+         </div>
+         <div xml:id="d23381937" corresp="d835651" type="Tagebucheintrag">
+            <head><supplied resp="#editor" reason="noneGiven">Tagebucheintrag 28.11.1795 </supplied></head>
+            <p>
+               <lb/><date when="1795-11-28">28 Nov</date>
+               <lb/>Der Egoismus im minderen Verstande ist
+               <lb/>das verabscheuungswürdigste ding von der Welt,
+               <lb/>doch ist der Weise was anders als Egoist im
+               <lb/>edlen Verstande? Ist nicht jede Kraft
+               <lb/>die den Menschen ziert, jede Tugend mit der
+               <lb/>er sich schmückt jede edle That <supplied>mit</supplied> die er <supplied>predigt</supplied>
+               <lb/>im stillen übt, Quelle neuer Freuden, die Wonne
+               <lb/>in seine Seele strömet, deren Stralen auch
+               <lb/>auf seine Mitmenschen, die fähig sind sie zu empfangen,
+               <lb/>zurückfließen. <rs ref="#i873936" type="object">O ihr die ihr Lehrer
+               <lb/>der Tugend</rs> sein sollt warum stellt ihr diese
+               <lb/>Tochter des Himmels als eine Freudenstörerin
+               <lb/>vor? Ihr müßt sie selbst nicht kennen
+               <lb/>ihr macht sie fürchten statt sie lieben zu
+               <lb/>machen! Seid gut, und genießt die Ruhe eines
+               <lb/><supplied>guten</supplied> reinen Herzens so werdet ihr Glückselig
+               <lb/>sein, wenn schon auf Stürme aller Art euer
+               <lb/>Inners erschüttern. Ihr werdet Tugend
+               <lb/>lehren ohne sie zu predigen.</p>
+            <pb n="7"/>
+            <p>Aber mein Gott <rs ref="#i873990" type="object">mit was soll ich mich dan in
+               <lb/>der Welt beruihigen und befriedigen</rs> wenn
+               <lb/>es nicht mit dem Sittlichen Stolz <del>ist,</del> der mir
+               <lb/>die Versicherung giebt daß ich so gehandelt
+               <lb/>habe wie ich sollte <rs ref="#i873922" type="object">wie ich es dem Willen
+               <lb/>Gottes gemäs hielt</rs>. <rs ref="#i873964" type="object">Gewiß ich bin über
+               <lb/>den Beifall der Menschen nicht unempfindlich</rs>,
+               <lb/>aber wenn ich <supplied>nach</supplied> nach meinen Empfindungen
+               <lb/>nach meinem Gewißen handle, <rs ref="#i874019" type="object">wie selten ver
+               <lb break="no"/>steht man mich</rs>, und <rs ref="#i874003" type="object">so ziehe ich mich von
+               <lb/>den Menschen zurück</rs>, auch da wo mein Herz
+               <lb/>sich öffnen könnte, <rs ref="#i874011" type="object">fürchtet</rs> es sich und
+               <lb/>versagt sich manchen herlichen Genuß, dis
+               <lb/><rs ref="#i910645" type="object">schlägt mich darnieder</rs>. Ich bin den
+               <lb/>Menschen gar nichts weil ich ihnen das
+               <lb/>nicht sein kan was ich wünschte, oft ungerecht
+               <lb/>gegen sie. O wie quälend ist der Unglaube
+               <lb/>an Tugend, so wie der Unglaube an Religion
+               <lb/>und Zukunft entsteht <supplied>sie</supplied> <del>er oft</del> nicht aus Bosheit des
+               <lb/>Herzens sondern, durch Beleidigung, Mishandlung
+               <lb/>und Unterdrückung. Gott der du mir Glauben
+               <lb/>an dich und Beruhigung über meine Zukunft ins 
+               <pb n="8"/>Herz zurückgeschenkt hast, gieb mir
+               <lb/>auch Glauben an die Tugend der Menschen.
+            </p>
+            <p>Wir sind nicht in der Weld um glücklich
+               <lb/>zu sein, sagte mir Gestern ein <rs ref="#i873838" type="object">Freund</rs> der
+               <lb/>Wahrheit, sondern um uns der Vollkommen
+               <lb break="no"/>heit zu nähern, um uns dem Stande der
+               <lb/>Glükseligkeit zu nähern, den wir in einer
+               <lb/>bessern Weld genießen werden. Tröstliche
+               <lb/>Wahrheit froher Antrieb zur Tugend</p>
+         </div>
+         <div xml:id="d23381939" corresp="d835662" type="Tagebucheintrag">
+            <head><supplied resp="#editor" reason="noneGiven">Tagebucheintrag 10.12.1795 </supplied></head>
+            <p>
+               <lb/><date when="1795-12-10">95 12 10</date>
+               <lb/>Gewiß eine drückende Lage. <rs ref="#i874029" type="object">20 Jahre arbeite ich
+               <lb/>mit aufopfrung meiner <supplied>eignen</supplied> andern Wünsche
+               <lb/>das zu erhalten was ich täglich mehr verliere</rs>.
+               <lb/><rs ref="#i873990" type="object">Habe ich ich die Sache nicht gut angegriffen,
+               <lb/>oder wollte es die Vorsicht nicht</rs>.
+               <lb/>Ein Trost bleibt mir daß ich eifrig und
+               <lb/><supplied>mit</supplied> nach meinen <supplied>Absichten</supplied> Begriffen dem Zweke
+               <lb/>nachgestrebt, und das kan die ewige
+               <lb/>Gerechtigkeit mir nicht aus Acht lassen.
+            </p>
+            <p>
+               <lb/>Ach Himmel wie viel steckt noch im Grund
+               <lb/>meines Herzen daß daraus sollte, um mir
+               <lb/>die feste Seelenruhe und Vertrauen zu Gott
+               <pb n="9"/>zu geben, welches ich oft zu haben glaube.
+               <lb/>Wen <rs ref="#i873936" type="object">das Leben</rs> so in einem gleichgestimmten
+               <lb/>Tone fortgeht so bleiben geniemiglich die Leiden-
+               <lb break="no"/>schaften im stillen sitzen und wirken nur unbe
+               <lb/>merkt in unser Thun. Aber im Sturme
+               <lb/>des Lebens regt sich unser ganzes Ich und
+               <lb/>wir haben gelegenheit uns zu beobachten
+               <lb/>darum ist es wohl wahr, wen <rs ref="#i873922" type="object">Gott</rs> lieb
+               <lb/>hat den Suchet er mit Trübsal heim.
+               <lb/><rs ref="#i873964" type="object">Ich glaubte gar nicht stolz zu sein, weil ich den
+               <lb/>Grad und die Art von Stolz nicht habe, wo And[r]e
+               <lb/>die ich kenne. Und doch sehe ich daß ich nicht
+               <lb/>ganz frei davon bin</rs>.
+               <lb/>Ich glaubte nicht eitel zu sein weil ichs auf
+               <lb/>eine Andere art bin als Andere.
+               <lb/>Ich glaubte stark zu sein weil ich stärker
+               <lb/>war als Andere.
+               <lb/>Ich glaubte meine Zeit gut anzuwenden, weil
+               <lb/>ich sie weniger schlecht anwandte als viele
+               <lb/>Andere.
+               <lb/>Aber wo sind die Gränzen die dem Menschen
+               <lb/>sagen du hast genug gethan. Giebt nicht jeder
+               <lb/>Schritt zum Guten, ihm neue Kraft zum Guten
+               <pb n="10"/>erschlaft nicht jedes Unwahre daß er in seinem
+               <lb/>Herzen nährt, seine Kraft, zu wirken
+               <lb/>und zu höhrer Glück<del>seligkeit</del> höchrer Volkkommenheit
+               <lb/>hinauf zu steigen.
+               <lb/>Wie wenig kan sich der versprechen der
+               <lb/>sich immer nur verhältnißweise gegen
+               <lb/>andere oft noch mit blinder Selbstschonung
+               <lb/>prüft. Wie kan der Mensch die Kräfte
+               <lb/>des Menschen messen, ich kan mehr thun
+               <lb/>als ein Andrer, aber mein thun kan
+               <lb/>doch vor dem Richter der meine Kräfte
+               <lb/>mißt weniger <supplied>gethan haben</supplied> <del>sein</del> als <supplied>ein</supplied> das
+               <lb/>des Andrer. Strenge deine Kräfte an
+               <lb/>ohne <supplied>zu ver</supplied> um und neben dich zu sehen
+               <lb/>damit du nicht zurückgehst. Thue das
+               <lb/>Gute so wie du es erkennest, und nicht wie
+               <lb/>es die befriedigt die mit Nachsicht auf dich
+               <lb/>sehen, damit dir wieder Nachsicht von <supplied>ihnen
+               <lb/>erhalt</supplied> dir erhalten handle nach deiner
+               <lb/>Einsicht, sonst bist zu Andrer Taglöhner
+               <lb/>sonst kanst du deiner Wirksamkeit, durch</p>
+         </div>
+      </body>
+   </text>
+</TEI>
