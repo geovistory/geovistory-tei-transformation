@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="​http://www.w3.org/2000/01/rdf-schema#" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Proposition for a Geovistory export TEI format</title>
+                <author>Morgane Pica</author>
+            </titleStmt>
+        </fileDesc>
+            <!-- FIRST OPTION -->
+        <xenoData corresp="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-xenoData.html">
+            <!-- Direct export in RDF format. Example from CIDOC-CRM RDF examples. Needs @xml:id. -->
+            <rdf:RDF>
+                <rdf:Description rdf:about="http://example.com/actor/rob">
+                    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+                    <rdfs:label>Rob</rdfs:label>
+                    <crm:p98i_was_born>
+                        <crm:E67_Birth rdf:about="http://example.com/event/rob_birth">
+                            <crm:p7_took_place_at>
+                                <crm:E53_Place rdf:about="http://example.com/place/rangiora">
+                                    <rdfs:label>Rangiora</rdfs:label>
+                                    <crm:P168_place_is_defined_by>
+                                        <crm:E94_Space_Primitive rdf:about="http://example.com/file/rangiora.shp">
+                                            <rdfs:label>Rangiora.shp</rdfs:label>
+                                            <crm:p2_has_type rdf:resource="http://example.com/type/ESRIshapefile"/>
+                                        </crm:E94_Space_Primitive >
+                                    </crm:P168_place_is_defined_by>
+                                </crm:E53_Place>
+                            </crm:p7_took_place_at>
+                        </crm:E67_Birth>
+                    </crm:p98i_was_born>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+    </teiHeader>
+    <!-- SECOND OPTION -->
+    <standOff corresp="https://tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SASOstdf https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-standOff.html">
+        <!--
+            [https://tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SASOstdf] The standOff element is intended to hold content that does not fit well in the text (e.g. because it is not transcribed from the source), nor in the teiHeader (e.g. because it is not metadata about the source or transcription). Examples include contextual information about named entities (typically encoded using listBibl, listOrg, listNym, listPerson, or listPlace), annotations indicating the morphosyntactic features of a text, and annotations commenting on or associating parts of a text with additional information.
+        [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.html] xml:base¶	provides a base URI reference with which applications can resolve relative URI references into absolute URI references.
+        [https://tei-c.org/release/doc/tei-p5-doc/fr/html/ref-att.global.html] xml:base¶	donne une référence URI de base au moyen de laquelle les applications peuvent résoudre des références d'URI relatives en références d'URI absolues
+        -->
+        
+        
+        <listPerson corresp="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPerson.html https://tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPERSE">
+            <!-- (list of persons) contains a list of descriptions, each of which provides information about an identifiable person or a group of people, for example the participants in a language interaction, or the people referred to in a historical source.  -->
+            <person sex="1" corresp="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html https://tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPERSE">
+                <!-- (person) provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. -->
+                <!-- Example from TEI Guidelines. -->
+                <idno type="Geovistory"></idno>
+                <persName xml:lang="en">Ovid</persName>
+                <persName xml:lang="la">Publius Ovidius Naso</persName>
+                <birth when="-0044-03-20"> 20 March 43 BC <placeName>
+                    <settlement type="city">Sulmona</settlement>
+                    <country key="IT">Italy</country>
+                </placeName>
+                </birth>
+                <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                    <settlement type="city">Tomis (Constanta)</settlement>
+                    <country key="RO">Romania</country>
+                </placeName>
+                </death>
+            </person>
+        </listPerson>
+        <listObject></listObject>
+        <listBibl></listBibl>
+        <listEvent></listEvent>
+        <listObject></listObject>
+        <listPlace></listPlace>
+        <!-- <listEvent></listEvent> -->
+    </standOff>
+    
+    <text>
+        <p>Whatever text the document holds, it will go here.</p>
+    </text>
+</TEI>
